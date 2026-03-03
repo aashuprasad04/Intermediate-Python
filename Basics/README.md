@@ -13,7 +13,7 @@
   - mutable
   - indexed by keys, which means you cna change their content after creation, and each key must be unique.
 
-#### Key feature of Python Dictionaries: 
+#### 1. Key feature of Python Dictionaries: 
 - Key-Value pairs: Every item has a key and value.
    ```py
    my_dict = {"name": "Alice", "age": 25, "city": "New York"}
