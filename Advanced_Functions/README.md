@@ -20,3 +20,16 @@ printName()             # hello Guest!
 
 ```
 
+# 2. Keyword Arguments<br>
+- Normal (Positional) arguments : order matters here.
+- But in Keyword Arguments order doesn't maater, all keyword argument safe.
+
+#### Basic Syntax: 
+```py
+def PrintName(name , age):
+    print(f"Name : {name} , Age : {age}")
+
+
+PrintName(name="azy", age=19)
+PrintName(age=20, name="roni")
+```
