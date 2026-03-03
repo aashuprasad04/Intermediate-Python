@@ -33,3 +33,31 @@
     myDic.update({'age':'19', 'city':'bihar'})
     print(myDic)    #Output = {'name': 'azy', 'age': '19', 'city': 'bihar'}
     ```
+
+  - update
+    ```py
+    myDic = {'name': 'azy', 'age': '19', 'city': 'bihar'}
+    print(myDic)    #{'name': 'azy', 'age': '19', 'city': 'bihar'}
+
+    myDic['name'] = 'roni'
+    print(myDic)    #{'name': 'roni', 'age': '19', 'city': 'bihar'}
+    ```
+
+    - remove
+      ```py
+      myDic = {'name': 'azy', 'age': '19', 'city': 'bihar'}
+      print(myDic)    #{'name': 'azy', 'age': '19', 'city': 'bihar'}
+
+      removed_value1 = myDic.pop('name')
+      print(removed_value1)   #   azy
+      print(myDic)    #   {'age': '19', 'city': 'bihar'}
+
+
+      # popitem() removes the last inserted key-value pair from a dictionary
+      #  and returns it as a tuple (key,value)
+
+      removed_value2 = myDic.popitem()
+      print(removed_value2)   # ('city', 'bihar')
+      print(myDic)    # {'age': '19'}
+
+      ```
