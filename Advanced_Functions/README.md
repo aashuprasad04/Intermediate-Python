@@ -15,7 +15,8 @@ A Default Arguments is a fun parameter that has a default value. If you don't pa
 def printName(name = "Guest"):
     print(f"hello {name}!")
 
-printName("azy")
-printName()
+printName("azy")        # hello azy!
+printName()             # hello Guest!
+
 ```
 
