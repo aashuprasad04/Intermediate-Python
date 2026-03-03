@@ -61,3 +61,20 @@
       print(myDic)    # {'age': '19'}
 
   ```
+
+#### Loop
+```py
+myDic = {'name': 'azy', 'age': '19', 'city': 'bihar'}
+
+for a in myDic:         # key return
+    print(a, end=" ")   # Output : name age city 
+print()
+
+for b in myDic.values():    # value return 
+    print(b, end=' ')       # Output : azy 19 bihar 
+print()
+
+for c,d in myDic.items():   # return pair
+    print(f"{c} : {d},", end=' ')   # Output : name : azy, age : 19, city : bihar,
+```  
+  
