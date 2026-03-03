@@ -20,4 +20,16 @@
    ```
      - Key: "name", "age", "city"
      - Value: "Alice", 25, "New York"
-   
+
+#### 2. Mutable: you can add, remove, or update items:
+  - add
+    ```py
+    myDic = {}
+    print(myDic)    #Output = {} 
+
+    myDic['name'] = "azy"
+    print(myDic)    #Output =  {'name': 'azy'}
+
+    myDic.update({'age':'19', 'city':'bihar'})
+    print(myDic)    #Output = {'name': 'azy', 'age': '19', 'city': 'bihar'}
+    ```
