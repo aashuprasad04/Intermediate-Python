@@ -60,4 +60,4 @@
       print(removed_value2)   # ('city', 'bihar')
       print(myDic)    # {'age': '19'}
 
-      ```
+  ```
