@@ -34,7 +34,7 @@ PrintName(name="azy", age=19)
 PrintName(age=20, name="roni")
 ```
 
-# 3. *args<br>
+# 3. *args    (tuple)<br>
 - *args allows a function to accept any number or positional arguments.
 - Is is not limited to numbers - you can pass
   - strings
@@ -57,4 +57,9 @@ nums("azy", 19, "hezal", 17)    # Output : azy 19 hezal 17
 a = ("azy", 19, "harshit", 20)
 nums(*a)    # Output : azy 19 harshit 20 
 ```
+
+# 4. **kwargs    (dictionary)<br>
+- **kwargs allows a function to accept any number of keyword arguments.
+- The arguments are collected as a dictionary inside the fun.
+
 
