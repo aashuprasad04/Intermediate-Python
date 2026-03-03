@@ -43,8 +43,8 @@
     print(myDic)    #{'name': 'roni', 'age': '19', 'city': 'bihar'}
     ```
 
-    - remove
-      ```py
+- remove
+  ```py
       myDic = {'name': 'azy', 'age': '19', 'city': 'bihar'}
       print(myDic)    #{'name': 'azy', 'age': '19', 'city': 'bihar'}
 
