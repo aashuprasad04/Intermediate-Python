@@ -72,3 +72,30 @@ kwargs(name="ashu", age=19)
 name : ashu
 age : 19
 ```
+# 5. Return Multiple Values
+A function can return multiple values. Internally, Python returns them as a tuple. 
+- Concept
+  - Return Multiple values : return a,b,c
+  - Internally stored as : tuple
+  - Unpacking values : x,y,z = function()
+ 
+```py
+def printM(a,b,c):
+    return a,b,c
+
+a,b,c = printM(5,10,15)
+print(f"{a},{b},{c}")
+```
+```text
+5,10,15
+```
+- Python actually treats this as:
+  ```py
+  return (10, 20, 30)
+  ```
+
+
+
+
+
+
