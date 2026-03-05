@@ -61,5 +61,11 @@ nums(*a)    # Output : azy 19 harshit 20
 # 4. **kwargs    (dictionary)<br>
 - **kwargs allows a function to accept any number of keyword arguments.
 - The arguments are collected as a dictionary inside the fun.
+```py
+def kwargs(**kwargs):
+    for a,b in kwargs.items():
+        print(f"{a} : {b}")
 
+kwargs(name="ashu", age=19)
+```
 
