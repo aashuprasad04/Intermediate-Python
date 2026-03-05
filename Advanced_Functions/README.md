@@ -100,7 +100,7 @@ Variable Scope means where a variables can be accessed in the program.
    - E = Enclosing Scope
    - G = Global Scope
    - B = Built-in-Scope
-
+- Python searches variables in this order.
 
 
 
