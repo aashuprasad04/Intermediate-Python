@@ -93,8 +93,13 @@ print(f"{a},{b},{c}")
   ```py
   return (10, 20, 30)
   ```
-
-
+# 6. Variable Scope (LEGB Rule)
+Variable Scope means where a variables can be accessed in the program.
+- Python follow the LEGB Rule to find variables.
+   - L = Local Scope
+   - E = Enclosing Scope
+   - G = Global Scope
+   - B = Built-in-Scope
 
 
 
