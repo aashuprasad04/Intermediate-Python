@@ -68,4 +68,7 @@ def kwargs(**kwargs):
 
 kwargs(name="ashu", age=19)
 ```
-
+```text
+name : ashu
+age : 19
+```
