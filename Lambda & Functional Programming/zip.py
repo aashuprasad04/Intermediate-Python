@@ -1,7 +1,5 @@
 # zip() is used to combine elements from multiple iterables (lists, tuples, etc.) into pairs or tuples.
-
 # It groups elements index by index.
-
 # zip(iterable1, iterable2, ...)
 
 list1 = [1,2,3,4,5]
