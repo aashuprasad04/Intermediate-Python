@@ -12,3 +12,7 @@ print(add(5,6))
 
 Aprint = lambda a: print(a)
 Aprint("azy")
+
+add = lambda x: [i+1 for i in x]
+nums = [1,2,3,4,5]
+print(add(nums))  # output : [2, 3, 4, 5, 6]
