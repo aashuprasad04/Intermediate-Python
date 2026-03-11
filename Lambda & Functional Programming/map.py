@@ -14,3 +14,16 @@ nums = [97, 98, 99]
 result = list(map(chr, nums))
 
 print(type(result), result)
+
+
+# fun 
+print()
+len()
+type()
+int()
+str()
+chr()
+ord()
+sum()
+max()
+min()
