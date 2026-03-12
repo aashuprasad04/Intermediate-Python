@@ -13,8 +13,4 @@ print(List01)   # Output : [10, 20, 30, 40]
 # Example with diff data types
 List02 = [101, 'Aashu Prasad', '5.5', True]
 print(List02)   # Output : [101, 'Aashu Prasad', '5.5', True]
-
-
-
-
 ```
